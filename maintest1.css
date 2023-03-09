@@ -1,0 +1,2112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* height: 4170px;
+    width: 1440px; */
+}
+
+html{
+    font-family: "Roboto", sans-serif;
+
+}
+/* ---------------phan dung du lieu chung------------------ */
+.text{
+    position:absolute;
+    color:#fff;
+    line-height: 7;
+    margin: 30px;
+    margin-top: -30px;
+    font-family: "Roboto", sans-serif;
+}
+.order-name{
+    font-weight: 600;
+}
+
+.one{
+    line-height: 9;
+}
+
+.two{
+    line-height: 9;
+}
+
+.half{
+    max-width: 100%;
+
+}
+/* ------------------------------------------------------------- */
+
+/* ----------------header---------------------------------------- */
+.img-berger2{
+    margin-bottom: 30px;
+}
+
+#content .section-choose{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    /* khoang cch giua tung chu cai voi nhau */
+    letter-spacing: 4px;
+    margin: 40px;
+}
+
+#content .section-sub-choose{
+    font-size: 15px;
+    text-align: center;
+    margin: 40px;
+}
+
+
+#header{
+    height: 800px;
+    background:url(./image/bgr-header.png);
+
+}
+    
+.logo {
+    /* cho logo noi len het tat ca trang  */
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+    /* gap:54rem; */
+    /* cuon chuot menu chay theo trang */
+    position: fixed;
+    width:100%;
+    
+}
+img.logohouse {
+    cursor: pointer;
+}
+
+/* hien mau thanh header khi tro chuot vao */
+/* .logo:hover{
+    background-image:url(./image/bgr-header.png);
+    border-radius: 12px;
+    height: 13% ;
+    
+} */
+
+.contact {
+    font-weight: 600;
+}
+
+.hotline {
+    padding-left: 12.5rem;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: flex-start
+}
+
+#header .option {
+    display: inline-block; 
+
+
+}
+
+.sloganname{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 44px;
+
+}
+
+.oneth {
+    padding: 30px;
+    border: 3;
+    border-right-width: -8px;
+}
+
+.sloganname .all .oneth .goodtime{
+
+    border: 3px dashed #42200b;
+    text-align: center;
+    margin-left: -16px;
+    margin-bottom: -28px;
+    color:#3d2514;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+.sloganname .all .second .burger{
+    
+    font-size: 112px;
+    font-weight: 900;
+    text-shadow: 5px 4px 10px #f8f9fa;
+    font-family: 'Roboto Slab', serif;
+    color:#3d2514;
+    
+}
+
+.sloganname .all .thir .week{
+    font-size: 45px;
+    margin-left: 4px;
+    line-height: 1px;
+    font-weight: 700;
+    text-shadow: 5px 4px 10px #f8f9fa;
+    font-family: 'Roboto Slab', serif;
+    color:#3d2514;
+}
+
+img.sloganimg {
+    padding-top: 12rem;
+   
+}
+
+/* ------------------ Contact--------------------- */
+
+#nav > li {
+    /* lam cho the li thanh 1 hang ngang */
+    display: inline-block;
+   
+}
+
+#nav > li > a{
+    /* viet hoa tat ca chu cai  */
+    text-transform: uppercase;
+    color: #3d2514;
+}
+#nav li{
+    position:relative;
+    
+
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 46px;
+    display: block;
+}
+
+.option{
+    float: right;
+}
+
+
+
+/* ------------------TRY IT----------------------------- */
+
+#content{
+    position: relative;
+}
+
+#content .enjoy{
+    width: 1236px;
+    height:421px;
+    padding: 64px 64px 40px;
+    /* căn giữa  */
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color:#fff;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#content .enjoymoment{
+    display: block;
+}
+ 
+/* ----------------CHOSE AND ENJJOY-------------------- */
+
+.button{
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    background-color:#ffc045;
+    color:#3d2514;
+    width:220px;
+    height: 47px;
+    cursor: pointer;
+    font-weight: 900;
+
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    border: none;
+
+}
+
+.button:hover{
+    background-color: #bf2222;
+    color:#FFF;
+}
+
+.section-choose{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+}
+
+p.section-sub-choose {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+
+.order {
+    /* lam thang 1 hang  */
+    display: flex;
+    text-align: center;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    
+    
+
+}
+
+.order-img{
+    width:360px;
+    height: 315px;
+    
+}
+
+.button-buy{
+    width: 195px;
+    height: 55px;
+    background-color: #bf2222;
+    color: #fff;
+    /* hieu ung khi tro chuot vao */
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    border:none
+
+}
+.button-buy:hover{
+    background:#ffc045;
+    color:  #fa0000;
+
+}
+/* ------------------EVENT SLIDER--------------------------- */
+
+.event{
+    display: flex;
+    width: 1300px;
+    height: 500px;
+    margin: 68px;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    box-shadow: 0px 0px 20px 22px #e2e2e2;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.content__slide {
+  display: flex;
+  justify-content: center;
+  margin: -1rem 7rem 1rem 7rem;
+ 
+  gap: 2rem;
+}
+
+.content__slide--desc {
+  margin-top: 2rem;
+}
+.content__slide--desc h3,
+.content__slide--desc h1,
+.content__slide--desc p {
+  margin: 0;
+}
+.content__slide--desc h3,
+.content__slide--desc h1 {
+  color: #3d2514;
+}
+.content__slide--desc h3 {
+  font-size: 29px;
+}
+.content__slide--desc h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 43px;
+}
+.content__slide--desc p {
+  font-size: 21px;
+  margin-top: 1rem;
+}
+.content__slide--img {
+  margin: 2rem 0rem 2rem 2rem;
+}
+.content__slide--dots {
+  position: absolute;
+  margin: -4rem 0 0 7rem;
+}
+.dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #dbdbdb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #ffbf45;
+}
+
+img.event-img {
+    margin: 20px;
+}
+
+
+.upcome{
+    margin: 0;
+    line-height: 0;
+}
+
+p.section-sub-event {
+    margin-top: 50px;
+}
+
+
+.booking .reservation {
+    LINE-HEIGHT: 0;
+}
+
+.booking .imgreservation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+p.section-sub-choose.b {
+    font-weight: 900;
+}
+
+
+input[type="button-find"] {
+    FONT-WEIGHT: 600;
+    padding-left: 44px;
+    color: #fff;
+    padding-right: 43px;
+    text-align: center;
+    width: 320px;
+    height: 40px;
+    background-color: #bf2222;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.find {
+    margin-top: -8px;
+    margin-left: -8px;
+}
+input[type="button-find"]:hover{
+    background-color: #ffc045;
+    color:#fff;
+}
+
+
+.table {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: -100px;
+}
+
+.tablerow {
+    display: table-cell;
+    padding: 1rem
+}
+
+.tablebig1 ,.tabblebig2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+
+.tablebig1 input ,.tabblebig2 input{
+    height: 40px;
+    border-radius:9px;
+    width: 20rem;
+    color: #000;
+}
+/* ------------------footer------------------------------ */
+#footer .anhfooter .con-bgr{
+    background-image: url(./image/bgr-footer.png) ;
+    margin:2rem auto;
+    height: 400px;
+    width: 80rem
+}
+
+
+img.jpgfooter {
+    margin-top: 30px;
+    margin-left: 44px;
+    cursor: pointer;
+}
+
+.bettwenfooter{
+    color: #FFF;
+    display: flex;
+    margin-left: 44px;
+    margin-right: 44px;
+    margin-top: 44px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+
+}   
+
+p {
+    margin-top: 0;
+    margin-bottom: 5rem;
+}
+
+.location-footer , .info-footer{
+    display: flex;
+}
+
+.ti-location-pin:before {
+    margin: 12px;
+    font-size: 2rem;
+    
+}
+.ti-email:before {
+    margin: 12px;
+    font-size: 2rem;
+}
+
+.items {
+    
+    gap:2rem;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin-right: 3rem;
+    margin-top: -1.6rem;
+}
+
+.item-location, .info{
+    display: flex;
+}
+
+.icon{
+    background-color:#fff;
+    border-radius:50%;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+
+}
+
+
+.endleft {
+    margin-left: 44px;
+    margin-top: 5rem;
+}
+
+/* -----------------LAM THANH MENU KHI CHUYEN DOI THIET BI--------------------- */
+/* mobile nav */
+.nav__barss-btn{
+    width: 28px;
+    height: 28px;
+    margin-left: 30rem;
+    color:#c60b0b;
+    display:none;
+    cursor: pointer;
+
+}
+
+.nav__overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom:0;
+    background-color:rgba(0, 0, 0, 0.3);
+    display:none;
+    animation: fedeIn linear 0.2s;
+
+}
+.nav__mobile{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* width: 100px; */
+    max-width: 100%;
+    background-color:#ffc74d;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform linear 0.2s, opacity linear 0.2s;
+
+
+
+}
+.nav__mobile-list{
+    margin-top: 24px;
+
+
+}
+
+.nav__mobile-link{
+    text-decoration: none;
+    color:#333;
+    display:block;
+    padding:8px 0;
+    font-size: 1.4rem;
+}
+
+.nav__mobile-close{
+    width:28px;
+    height: 28px;
+    color:#666;
+    position: absolute;
+    top:0.2rem;
+    right:0.2rem;
+    cursor: pointer;
+
+
+}
+
+.nav__input:checked ~ .nav__overlay{
+    display: block;
+}
+
+.nav__input:checked ~ .nav__mobile{
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+/* hien thi nut 3 gach tu 1023px tro ve truoc */
+@media (max-width:1023px){
+    .nav__barss-btn{
+        display: block;
+        width: 23px;
+        margin-left: 28.8rem;
+    }
+    .nav__pc{
+        display: none;
+    }
+}
+
+@keyframes fedeIn{
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/* ---------------------RESPONSIVE TABLET------------------------- */
+
+@media (min-width:601px) and (max-width: 768px) {
+
+    .logo {
+        display: flex;
+        width:5%;
+        height:7%;
+        
+    }
+    .nav {
+        margin-left: -2rem;
+        margin-top: 0rem;
+    }
+    .nav__mobile-link {
+        padding: 3px 3px;
+    }
+
+    .nav__mobile-list .new-hotline {
+        margin-left: 20rem;
+        margin-top: 2rem;
+    }
+
+    ul.nav__mobile-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 51rem;
+        list-style-type: none;
+        margin-left: -3rem;
+    }
+
+    img.img-hotline-new {
+        margin-top: 1rem;
+        width: 3rem;
+        margin-left: -11rem;
+    }
+
+    p.empress {
+        margin-left: -17.5rem;
+    }
+    ul.nav__mobile-list {
+        margin-left: -2rem;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    
+
+    .sloganname{
+        height: 100%;
+        padding-top: 30%;
+    }
+
+    .oneth {
+        font-size: 83%;
+        margin: -6px;
+        width: 105%
+    }
+
+
+    .sloganname .all .second .burger {
+        font-size: 86px;
+    }
+
+    .sloganname .all .thir .week {
+        font-size: 34px;
+    }
+
+    img.sloganimg {
+        width: 100%;
+        padding: 0rem;
+        
+    }
+
+/* hotline */
+
+    ul#nav {
+        display: block;
+        margin: 0;
+        width: 23rem;
+    }
+
+
+    .hotline {
+        margin-left: -73%;
+        display: block;
+        padding-left: 9.5rem;
+    }
+
+
+    /* be logo xe may */
+    img.img-hotline {
+        padding: -7rem;
+        width: 2rem;
+        position: absolute;
+    }
+
+    p.empress {
+        font-size: 17px;
+    }
+
+    #nav li a {
+        line-height: 0;
+        padding-left: 3px;
+        display: block;
+    }
+
+/* try it */
+
+    .ber{
+        width: 60%;
+    }
+    .ger{
+        width: 57%;
+    }
+    
+    .text{
+        font-size: 0.9rem;
+        margin: 2px;
+        margin-left: 4px;
+        line-height: 4;
+    }
+    p.place-desc.text.two {
+        font-size: 0.8rem;
+        margin-top: -0.7rem;
+    }
+    .text.one {
+        font-size: 1rem;
+        line-height: 5.5;
+    }
+
+    .ger {
+        width: 80%;
+        margin-left: 4rem; 
+            /*  se day chu try it ra ngoai */
+    }
+
+    .ber {
+        width: 69%;
+    }
+
+    img.ber {
+        margin-left: 12.5rem;
+    }
+
+    p.place-desc.text.two.tree {
+        margin-left: 13rem;
+        font-size: 1.1rem;
+    }
+    
+    h3.place-headding.text.tree {
+        margin-left: 13rem;
+        font-size: 1.1rem;
+        line-height: 5rem;
+    }
+    
+    p.place-desc.text.two {
+        margin-left: 4.4rem;
+        font-size: 1rem;
+    }
+    
+    h3.place-headding.text {
+        margin-left: 4.4rem;
+        line-height: 4.5rem;
+        font-weight: 600;
+    }
+    
+    h3.place-headding.text.one {
+        line-height: 6.6rem;
+    }
+
+/* choose & enjoy */
+
+    #content .enjoy {
+        width: 58em;
+        height:18rem;
+        padding: 0;
+        margin-left: -11.3rem;
+        gap:0;
+    }
+
+    
+    .order {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    
+    .order-bur {
+        width: 16rem;
+    }
+    
+    img.order-img {
+        width: 15rem;
+        height: 12rem;
+    }
+    
+    .order-name {
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    
+    #content .section-sub-choose {
+        font-size: 15px;
+        text-align: center;
+        margin: 24px;
+    }
+    
+    .button-buy {
+        width: 140px;
+        height: 50px;
+    }
+/*  event slide  */
+
+    .event {
+        width: 46rem;
+        box-shadow: 0px -2px 16px 18px #e2e2e2;
+        margin-left: 0.5rem;
+        margin-top: 3rem;
+    }
+
+    .mySlides {
+        width: 45rem;
+    }
+
+    .content__slide {
+        align-items: center;
+        width: 45rem;
+        margin-left: -0.6rem;
+    }
+
+    .content__slide--desc {
+        margin-left: 2rem;
+        margin-bottom: 4rem;
+    }
+    
+    .content__slide--desc h3 {
+        margin-bottom: 1rem;
+        font-size: 24px;
+        font-size: 19px;
+    }
+
+    .content__slide--desc h1 {
+        font-size: 32px;
+        margin: -1rem 0rem -1rem;
+    }
+
+
+    .content__slide--desc p {
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 1rem;
+    }
+
+    .content__slide--dots {
+        position: absolute;
+        margin: 0rem 0 0 22rem;
+    }
+
+
+/* booking */
+    img.rai {
+        width: 11rem;
+        height: 12rem;
+    }
+    
+    .table {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    
+    img.let {
+        width: 9rem;
+    }
+
+
+/* footer */
+    img.jpgfooter {
+        margin-top: 30px;
+        margin-left: 44px;
+        width: 9rem;
+    }
+
+    p.pfooter {
+        width: 19rem;
+    }
+
+    .bettwenfooter {
+        width: 14rem;
+    }
+
+    #footer .anhfooter .con-bgr {
+        width: 46.5rem;
+    }
+    
+    .bettwen-right-footer {
+        width: 17rem;
+        height: 11rem;
+        margin-left: 5rem;
+    }
+    
+    
+    
+    .items {
+        margin-top: -3.2rem;
+        margin-right: 3rem;
+        cursor: pointer;
+    }
+    
+    img.jpgbanquyen {
+        height: 1rem;
+        margin-top: -3rem;
+    }
+
+
+}
+  
+
+
+/* -----------------------------reponsive cho IPad PRO------------------- */
+
+@media (min-width: 769px)and (max-width:1024px) {
+/* ---header---- */
+    .hotline {
+        padding-left: 14rem;
+    }
+    img.sloganimg {
+        width: 35rem;
+    }
+    .sloganname .all .second .burger {
+        font-size: 76px;
+    }
+/* --------try it---------- */
+    #content .enjoy {
+        width: 1000px;
+
+    }    
+  
+    
+    img.ber {
+        width: 29rem;
+        height:23rem;
+    }
+
+    img.ger {
+        width: 29rem;
+        height: 10.5rem;
+    }
+
+/* ------chose enjoy----- */
+    .order-bur {
+        margin-left: -2rem;
+    }
+
+    /* event slider-- */
+    .event {
+        width: 60rem;
+        height: 37rem;
+    }
+
+    .mySlides {
+        margin-left: -3.5rem;
+        width: 64rem
+    }
+
+    .content__slide--desc {
+        margin-top: -3rem;
+    }
+
+    .content__slide--desc p {
+        font-size: 19px;
+    }
+
+    .content__slide {
+        margin: -1rem 7rem -1rem 7rem;
+    }
+
+    .content__slide--img {
+        margin: 2rem 0rem 2rem 2rem;
+        width: 38rem;
+    }
+
+    .content__slide--dots {
+        margin: 2rem 0 0 29rem;
+    }
+    
+/* ------booking----- */
+    img.rai {
+        width: 12rem;
+        height: 17rem;
+    }
+    
+    img.let {
+        width: 10rem;
+        margin-left: -3rem;
+    }
+/* -----footer---- */
+    #footer .anhfooter .con-bgr {
+        width: 61rem;
+    }
+}
+
+
+/* ----------------------RESPONSIVE LON HON SIZE TABLET--------------------------------------------- */
+@media (min-width:1023px){
+    .nav__list > li{
+        display: inline-block;
+        margin-left: 3rem;
+    }
+
+    .nav__list{
+        color:#42200b;
+        font-family: "Roboto", sans-serif;
+    }
+
+    a.nav__link {
+        color: #42200b;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 700;
+        
+    }
+
+    .nav__mobile-link {
+        padding: 8px 45px;
+    }
+    
+    ul.nav__mobile-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* --------------------------RESPONSIVE NHO HON SIZE TABLET------------------------------------------------------ */
+@media only screen and (max-width: 1023px){
+    
+
+       .nav__mobile-link {
+        padding: 8px 45px;
+    }
+    
+    ul.nav__mobile-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        list-style-type:none;
+    }
+
+    
+
+    .nav__mobile-list .new-hotline {
+        margin-left: 20rem;
+        margin-top: 1rem;
+    }
+
+
+
+    .logo .hotline{
+        display: none;
+    }
+
+    img.img-hotline-new {
+        margin-top: -1rem;
+        width: 3rem;
+        margin-left: 4rem;
+    }
+    p.empress {
+        margin-left: -2rem;
+    }
+   
+}
+
+/* ---------------------RESPONSIVE CHO MOBILE------------------------------------------------- */
+
+@media only screen and (max-width: 320px) {
+ 
+    #header {
+        height: 600px;
+    
+    }
+   
+    img.logohouse {
+        margin-top: -2rem;
+        margin-left: -1rem;
+        width: 9rem;
+    }
+    .contact {
+        margin-left: -2rem;
+    }
+
+    .nav {
+        margin-left: -22rem;
+        margin-top: -0.5rem;
+    }
+
+    .nav__barss-btn {
+        margin-top: -1rem;
+    }
+
+    ul.nav__mobile-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-left: -2rem;
+        font-family: 'Roboto Slab', serif;
+
+    }
+    p.empress {
+        margin-left: -17rem;
+    }
+    img.img-hotline-new {
+        margin-left: -11rem;
+    }
+
+    
+    /* ------------------------------------------------------- */
+
+    .sloganname .all .second .burger {
+        font-size: 43px;
+    }
+    
+
+    .all {
+        margin-top: 5rem;
+        top: 2px;
+    }
+    .sloganname .all .oneth .goodtime {
+
+        margin-left: -21px;
+        margin-bottom: -31px;
+    }
+
+    .second {
+        text-align: center;
+        margin-left: -1rem;
+    }
+    p.goodtime {
+        font-size: 12px;
+        
+    }
+    
+    .sloganname .all .thir .week {
+        font-size: 27px;
+        text-align: center;
+        margin-left: -1rem;
+    }
+    
+    .sloganname {
+        padding-top: 10rem;
+        margin-left: 1rem;
+        display: block;
+        padding-top: 18%;
+    }
+    
+        
+    
+    
+    img.sloganimg {
+        width: 100%;
+        padding: 0rem;
+        margin-top: 3rem;
+    }
+    
+    /* -----try it---------- */
+    
+    #content .enjoy {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 500px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .enjoymoment {
+        margin-top: -1rem;
+    }
+
+    img.ber {
+        height: 7rem;
+        width: 17rem;
+        margin-left: 0.8rem;
+        margin-top: 4rem;
+    }
+
+    img.ger {
+        width: 17rem;
+        margin-left: 6rem;
+        height: 7rem;
+    }
+
+    p.place-desc.text.two.tree {
+        margin: 0;
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    h3.place-headding.text.tree {
+        margin-top: 3rem;
+        margin-left: 1rem;
+        font-size: 12px;
+        font-weight: 600;
+
+    }
+
+    p.place-desc.text.two {
+        margin-left: 6.4rem;
+        font-weight: 100;
+        font-size: 15px;
+        margin-top: -3.5rem;
+    }
+    
+    
+    h3.place-headding.text {
+        font-weight: 600;
+        font-size: 15px;
+        margin-left: 6.5rem;
+        margin-top: -1.6rem;
+    }
+    /* -----choose---- */
+
+    
+    button.button {
+        font-size: 12px;
+        height: 2.5rem;
+        width: 8rem;
+        margin-bottom: 3rem;
+    }
+    
+    #content .section-choose {
+        font-size: 25px;
+        letter-spacing: 0px;
+        margin: 40px;
+    }
+    
+    #content .section-sub-choose {
+        font-size: 14px;
+        text-align: center;
+        margin: 14px;
+    }
+    
+    
+    .choose .order {
+        display: flex;
+        flex-direction: column;
+        margin: 1.2rem;
+        padding: 1rem;
+       
+    }
+   
+    .order-bur {
+        margin-top: 2rem;
+        margin-left: -2rem;
+        width: 18rem;
+        
+    }
+
+    button.button-buy {
+        width: 100px;
+        height: 32px;
+        font-size: 12px;
+        margin-bottom: 2rem;
+    }
+    
+    
+    /* ----------event --------------------------- */
+    
+    
+    .event {
+        width: 18rem;
+        padding: 0;
+        margin-left: 0.3rem;
+    }
+
+    #content .order .order-bur .section-sub-choose .or{
+        font-size: 13px;
+    }
+    .order-bur {
+        margin-top: 2rem;
+        margin-left: -2rem;
+        width: 17rem;
+    }
+
+    .order-img {
+        width: 245px;
+        height: 200px;
+    }
+
+    img.order-img.mot {
+        margin-left: 3rem;
+    }
+
+    .content__slide{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: -18rem;
+    }
+
+    .content__slide--desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 19rem;
+        margin-top: 13rem;
+        margin-left: -1rem;
+    }
+
+    .content__slide--desc h3 {
+        font-size: 22px;
+        margin-left: 1rem;
+    }
+
+    .content__slide--desc h1 {
+        font-size: 27px;
+        margin-left: 1rem;
+    }
+
+    .content__slide--desc p {
+        font-size: 13px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .content__slide--img {
+        width: 17rem;
+        margin: 0rem 0rem 0rem 0.5rem;
+    }
+    
+    .content__slide--dots {
+        margin: 2rem 0 0 8rem;
+    }
+
+    
+    
+    /* ----------bookingg--------------- */
+    
+    #content .section-choose {
+        font-size: 23px;
+        margin-top: 0rem;
+    }
+
+    img.rai , img.let{
+        display: none;
+    }
+
+
+    .table {
+        display: flex;
+        flex-direction: column;
+        margin-left: -1rem;
+        font-size: 14px;
+    }
+
+    .tablebig1 input, .tabblebig2 input {
+        height: 38px;
+        width: 17rem;
+        margin-left: 1rem;
+    }
+  
+/* footer */
+
+    img.jpgfooter {
+        margin-top: 1rem;
+        margin-left: 3rem;
+        width: 12rem;
+    }
+
+    .bettwenfooter {
+        display: block;
+        width: 15rem;
+    }
+    p.pfooter {
+        font-size: 13px;
+        width: 17rem;
+        margin-left: -1.5rem;
+    }
+    .bettwen-right-footer {
+        margin-left: -2rem;
+        margin-top: 3rem;
+    }
+
+    .textlocation {
+        width: 14rem;
+    }
+
+    #footer .anhfooter .con-bgr {
+        height: 33rem;
+        width: 18rem;
+    }
+
+    .items{
+        margin: 0;
+        margin-right: -1rem;
+    }
+    .endleft {
+        margin-left: 27px;
+        margin-top: 6.5rem;
+    }
+
+    .endright {
+        margin-top: -6rem;
+        margin-right: 2.8rem;
+    }
+
+}
+
+
+/* ---------------------responsive cho mobile 8/X------------------------- */
+
+@media (min-width:375px) and (max-width:413px){
+/* header   ----- */
+
+    #header {
+        height: 650px;
+    }
+
+    img.logohouse {
+        width: 9rem;
+    }
+    .nav {
+        margin-left: -19rem;
+    }
+
+
+    ul.nav__mobile-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-left: -2rem;
+        font-family: 'Roboto Slab', serif;
+    }
+    img.img-hotline-new {
+        margin-left: -11rem;
+    }
+    p.empress {
+        margin-left: -17rem;
+    }
+
+    .sloganname {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .sloganname .all .oneth .goodtime {
+        margin-top: 9rem;
+        margin-left: -4rem;
+    }
+
+    .sloganname .all .second .burger {
+        margin-left: -2rem;
+        font-size: 76px;
+    }
+    .sloganname .all .thir .week {
+        font-size: 42px;
+        margin-left: 50px;
+    }
+
+    .sloganname .all .oneth .goodtime {
+        margin-top: 6rem;
+    }
+
+    img.sloganimg {
+        padding: 0;
+        margin-top: 4rem;
+        margin-left: -3rem;
+        width: 19.8rem;
+    }
+/* ---try it------- */
+    #content .enjoy {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 30rem;
+        margin-left: -8rem;
+        margin-top: 8rem;
+        padding: 0;
+    }
+    
+    /* #content .enjoy {
+        display:block;
+    } */
+    img.ber {
+        width: 19rem;
+        margin-left: 8rem;
+    }
+
+    img.ger {
+        width: 19rem;
+        margin-left: 8rem;
+    }
+
+    
+    p.place-desc.text.two.tree {
+        margin: 0;
+        margin-left: 8.5rem;
+        margin-top: -3rem;
+    }
+    p.place-desc.text.two {
+        margin: 0;
+        margin-left: 8.5rem;
+        margin-top: -3.5rem;
+    }
+    h3.place-headding.text.tree {
+        margin: 0;
+        margin-left: 8.5rem;
+        margin-top: -2rem;
+        font-size: 1.4rem;
+    }
+
+    h3.place-headding.text {
+        margin: 0;
+        margin-left: 8.5rem;
+        margin-top: -2.1rem;
+        font-size: 1.3rem;
+        font-family: "Roboto", sans-serif;
+    }
+/* -----chhose& enjoy---- */
+    button.button {
+        margin-top: 6rem;
+        width: 9rem;
+    }
+    #content .section-choose {
+        font-size: 25px;
+    }
+    .order {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    button.button-buy {
+        width: 7rem;
+        height: 2rem;
+    }
+    .order-img {
+        width: 330px;
+        height: 270px;
+        margin-left: -0.5rem;
+        margin-top: 5rem;
+    }
+/* ------------event slider--------- */
+
+    .content__slide {
+        display: flex;
+        margin: -1rem 7rem 1rem 17rem;
+        gap: 2rem;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        width:22rem;
+    }
+    .content__slide--desc p {
+        font-size: 13px;
+        margin-top: 1rem;
+    }
+    .event{
+        width: 21rem;
+        height: 36rem;
+    }
+    .mySlides {
+        width: 2rem;
+        margin-left: -18rem;
+    }
+    .content__slide--desc {
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .content__slide--desc h3 {
+        font-size: 20px;
+    }
+    .content__slide--desc h1 {
+        font-family: "Roboto Slab", serif;
+        font-size: 25px;
+    }
+    .content__slide--img {
+        margin: 2rem 0rem 2rem 0rem;
+        width: 19rem;
+    }
+    .content__slide--dots {
+        position: absolute;
+        margin: 0rem 0 0 8.5rem;
+    }
+/* ----booking----- */
+    .booking {
+        width: 22rem;
+    }
+
+    #content .section-choose {
+        font-size: 22px;
+    }
+    img.rai , img.let{
+        display: none;
+    }
+    .table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-left: 0rem;
+    }
+    img.jpgfooter {
+        margin-top: 30px;
+        width: 12rem;
+        margin-left: 68px;
+    }
+/* -----footer----- */
+
+    .bettwenfooter {
+        display: block;
+    }
+    p.pfooter {
+        margin: 0;
+        width: 20rem;
+        margin-left: -2rem;
+    }
+
+    .bettwen-right-footer {
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+
+    #footer .anhfooter .con-bgr {
+        height: 525px;
+        width: 21rem;
+    }
+    .items {
+        margin-top: -5rem;
+        margin-right: 4rem;
+    }
+    .endleft {
+        margin-left: 48px;
+    }
+}
+
+/* --------------------responsive cho mobile 8+---------------- */
+ 
+@media (min-width: 414px) and (max-width: 598px) {
+/* header thanh menu-- */
+    img.logohouse {
+        width: 10rem;
+    }
+    .nav {
+        margin-left: -23rem;
+    }
+    ul.nav__mobile-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-left: -2rem;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    img.img-hotline-new {
+        margin-left: -11rem;
+    }
+
+    p.empress {
+        margin-left: -17rem;
+    }
+
+    .all {
+        margin-top: 10rem;
+    }
+    .sloganname {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        margin-left: 2rem;
+    }
+
+    .sloganname .all .oneth .goodtime {
+        margin-left: -27px;
+    }
+    .sloganname .all .second .burger {
+        font-size: 78px
+    }
+
+    .sloganname .all .thir .week {
+        font-size: 38px;
+        margin-left: 6.5rem;
+    }
+
+    img.sloganimg {
+        width: 24rem;
+        margin-left: -2rem;
+        margin-top: 3rem;
+        padding-top: 0rem;
+    }
+
+/* ----------try it--------- */
+
+    #content .enjoy {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 24rem;
+        margin-left: 0rem;
+        margin-top: 8rem;
+        margin-bottom: 5rem;
+        padding: 0;
+    }
+    img.ber {
+        width: 21rem;
+    }
+
+    img.ger {
+        width: 21rem;
+    }
+    p.place-desc.text.two.tree {
+        margin-left: 0.5rem;
+        margin-top: -3.5rem;
+    }
+
+    h3.place-headding.text.tree {
+        margin-left: 0.5rem;
+        margin-top: -2.7rem;
+    }
+
+    p.place-desc.text.two {
+        margin-left: 0.5rem;
+        margin-top: -3.5rem;
+    }
+    h3.place-headding.text {
+        margin-left: 0.5rem;
+        margin-top: -2.7rem;
+    }
+
+/* ----chose and enjoy--- */
+    #content .section-choose {
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+
+    .order {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .order-img {
+        width: 330px;
+        height: 260px;
+        margin-top: 3rem;
+    }
+
+    button.button-buy {
+        width: 8rem;
+        height: 2.5rem;
+    }
+/* ----event slide--------- */
+
+    .content__slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .event {
+        width: 29rem;
+        height: 49rem;
+        padding: 0;
+        margin-left: -4.5rem;
+    }
+    .slideshow-container {
+        width: 27rem;
+        margin-left: 1rem;
+    }
+    .content__slide--img {
+        width: 20rem;
+    }
+
+    .content__slide--desc p {
+        font-size: 17px;
+        margin-left: 3rem;
+    }
+
+    .content__slide--desc h3 {
+        font-size: 27px;
+        text-align: center;
+        margin-left: 3rem;
+    }
+
+    .content__slide--desc h1 {
+        font-family: "Roboto Slab", serif;
+        font-size: 43px;
+        text-align: center;
+        margin-left: 3rem;
+    }
+    
+
+    .content__slide--dots {
+        position: absolute;
+        margin: -1rem 0 0 13rem;
+    }
+/* ---booking ----- */
+
+.booking .imgreservation {
+    width: 23rem;
+    }
+
+    #content .section-choose {
+        font-size: 29px;
+        letter-spacing: 2px;
+    }
+
+    img.rai , img.let{
+        display: none;
+    }
+
+    .table {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-left: 1rem;
+        width: 23rem;
+    }
+/* ----footer--- */
+    #footer .anhfooter .con-bgr {
+        height: 33rem;
+        width: 24rem;
+    }
+    img.jpgfooter {
+        width: 13rem;
+        margin-top: 14px;
+        margin-left: 67px;
+    }
+    .bettwenfooter {
+        display: block;
+    }
+
+    .items {
+        margin-top: -5rem;
+        margin-right: 5.5rem;
+    }
+
+    .endleft {
+        margin-left: 60px;
+        margin-top: 6.5rem;
+    }
+}
+/* ----------------------- */
+
+
+
+
+
+
+
+/* khong can chinh phan nay nua  */
+@media(min-width:769px ) and (max-width:790px) {
+
+    .logo {
+        width:2px;
+        height:20%;
+    }
+    
+
+
+    .hotline{
+        padding-left: -20px;
+    }
+    
+}
+/* ---------------------responsive cho CUSTOMIZE---------------- */
+
+@media (min-width:600px) and (max-width: 767px) {
+/*-------header----- */
+    #header {
+        height: 915px;
+    }
+    img.logohouse {
+        width: 12rem;
+/* thanh Option */
+    }
+    .nav {
+        margin-left: -9rem;
+    }
+
+    ul.nav__mobile-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-left: -2rem;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    img.img-hotline-new {
+        margin-left: -17rem;
+    }
+    p.empress {
+        margin-left: -17rem;
+    }
+
+    img.img-hotline-new {
+        margin-left: -11rem;
+    }
+/* ----sologan---- */
+    .sloganname {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .all {
+        margin-top: 16rem;
+        margin-left: -2rem;
+
+    }
+
+    img.sloganimg {
+        padding-top: 4rem;
+    }
+
+    .sloganname .all .oneth .goodtime {
+        margin-left: 0px;
+        margin-bottom: -30px;
+    
+    }
+    .sloganname .all .thir .week {
+        margin-left: 164px;
+    }
+
+    img.sloganimg {
+        width: 30rem;
+    }
+
+/* ------try it---- */
+    #content .enjoy {
+        width: 38rem;
+        height: 418px;
+        margin-right: auto;
+        margin-left: -2rem;
+        margin-top: 230px;
+        margin-bottom: 40px;
+        background-color: #fff;
+        display: flex;
+        gap: 3rem;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+
+    }
+
+    img.ber {
+        width: 33rem;
+        margin-left: 2rem;
+    }
+    img.ger {
+        width: 33rem;
+        margin-left: 2rem;
+    }
+
+    p.place-desc.text.two.tree {
+        margin-top: -2.5rem;
+    }
+
+    p.place-desc.text.two {
+        margin-top: -2.5rem;
+    }
+
+    h3.place-headding.text.tree {
+        font-family: 'Roboto Slab', serif;
+    }
+
+    h3.place-headding.text {
+        font-family: 'Roboto Slab', serif;
+    }
+/* ---chose and enjoy */
+    .choose {
+        margin-top: 14rem;
+    }
+    .order {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button.button-buy {
+        margin-top: -1rem;
+    }
+
+    .order-img {
+        margin-top: 2rem;
+    }
+/* -----event---- */
+
+    .content__slide {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 33.7rem;
+        margin: 0;
+    }
+
+    .content__slide--desc {
+        margin-top: -2rem;
+    }
+
+    .content__slide--desc h3 {
+        font-size: 26px;
+        text-align: center;
+    }
+    .content__slide--desc h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .content__slide--img {
+        margin: 2rem 0rem 0rem 0rem;
+        width: 30rem;
+    }
+
+    .event {
+        width: 34rem;
+        height: 47rem;
+    }
+    
+    .content__slide--dots {
+        position: absolute;
+        margin: 1rem 0 0 15rem;
+    }
+/* ---booking---- */
+
+    img.rai , img.let{
+        display: none;
+    }
+
+    .tablebig1 input, .tabblebig2 input {
+        width: 14rem;
+    }
+
+    .booking .imgreservation {
+        margin-left: 13rem;
+    }
+/* -----footer */
+    #footer .anhfooter .con-bgr {
+        height: 33rem;
+        width: 34rem;
+    }
+
+    img.jpgfooter {
+        margin-top: 30px;
+        margin-left: 125px;
+        cursor: pointer;
+        width: 16rem;
+    }
+
+    .bettwen-right-footer {
+        margin-top: -6rem;
+    }
+
+    .items {
+        margin-top: -13rem;
+        margin-right: 4.5rem;
+    }
+
+    .endleft {
+        margin-left: 10rem;
+        margin-top: 5rem;
+    }
+
+}
+
+
+
+
+
+
+
